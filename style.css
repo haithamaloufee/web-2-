@@ -1,0 +1,106 @@
+/* 🌍 إعدادات الصفحة العامة */
+body {
+  font-family: 'Tahoma', sans-serif;
+  margin: 0;
+  color: #333;
+  direction: rtl;
+  scroll-behavior: smooth;
+
+  /* 🎨 خلفية بتدرج بيبي بلو راقي */
+  background: linear-gradient(160deg, #dbefff 0%, #f0f6ff 60%, #ffffff 100%);
+  min-height: 100vh;
+}
+
+
+
+/* 🧭 شريط التنقل */
+nav {
+  background-color: #222;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* روابط التنقل */
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #00bcd4;
+}
+
+/* 📸 الصورة الشخصية */
+/* 📸 الصورة الشخصية */
+.profile-img {
+  width: 180px;              /* حجم الصورة */
+  height: 180px;             /* الطول نفس العرض */
+  border-radius: 50%;        /* تخليها دائرية بالكامل */
+  object-fit: cover;         /* تقص الصورة بحيث ما تتمدد أو تنضغط */
+  border: 4px solid #00bcd4; /* إطار أزرق نظيف */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* ظل خفيف يعطي عمق */
+  margin-bottom: 25px;       /* مسافة تحت الصورة */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;        /* توسيط الصورة */
+}
+
+
+/* 📑 تصميم الأقسام */
+.section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.section h1, .section h2 {
+  color: #111;
+  margin-bottom: 15px;
+}
+
+/* لون مميز للاسم */
+.highlight {
+  color: #00bcd4;
+  font-weight: bold;
+}
+
+/* 🔹 قائمة المهارات */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+ul li {
+  display: inline-block;
+  background: #00bcd4;
+  color: white;
+  margin: 6px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+/* 🔗 تنسيق الروابط */
+a {
+  color: #00bcd4;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* قسم التواصل */
+#contact p {
+  font-size: 18px;
+  margin: 8px 0;
+}
+
